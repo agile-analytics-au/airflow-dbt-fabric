@@ -13,5 +13,6 @@ with new_york_taxis as (
          CAST(lpepPickupDatetime AS DATE)
    
    )
-   select * from final
+   select top 5 * 
+   from final
    
